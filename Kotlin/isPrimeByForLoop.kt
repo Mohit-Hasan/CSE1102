@@ -14,7 +14,9 @@ fun main(){
     }
     if (isPrime){
         println("$num is a prime number")
-    } else {
+    } else if (!isPrime) {
         println("$num is not a prime number")
+    } else {
+        println("Something went wrong!")
     }
 }
