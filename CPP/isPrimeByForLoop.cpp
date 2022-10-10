@@ -20,9 +20,7 @@ int main() {
     
     if(isPrime){
         printf("%d is a prime number",num);
-    } else if(!isPrime) {
-        printf("%d is not a prime number",num);
     } else {
-        printf("Something went wrong!");
-    }
+        printf("%d is not a prime number",num);
+    } 
 }
