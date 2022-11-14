@@ -22,10 +22,10 @@ int main(){
 
     for(i=0; i<rows; i++){
 
-        for(j=0; j<colums; j++){
+        for(j=1; j<colums; j++){
 
-                if(A[i][j]>=max) max = A[i][j];
-                if(A[i][j]<=min) min = A[i][j];
+                if(A[i][j]>max) max = A[i][j];
+                if(A[i][j]<min) min = A[i][j];
         }
     }
 
