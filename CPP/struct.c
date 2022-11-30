@@ -8,10 +8,8 @@ int main() {
     
     printf("=== Start Input ===\n");
     for(i=0; i<len; i++){
-        printf("Product-%d ID and Price: ",i);
+        printf("Product-%d ID and Price: ",i+1);
         scanf("%d %d",&pro[i].id, &pro[i].price);
-        // printf("Product %d Price: ",i);
-        // scanf("%d",&pro[i].price);
     }
     printf("=== After Input ===\n");
     for(i=0; i<len; i++){
